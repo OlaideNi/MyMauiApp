@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>interviewMobile</name>
+    </assembly>
+    <members>
+        <member name="M:interviewMobile.View.Home.ApiService.GetScoresAsync(System.Int32,System.String)">
+            Check existing scores
+        </member>
+    </members>
+</doc>

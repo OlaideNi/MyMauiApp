@@ -1,0 +1,110 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="interviewMobile.View.Home"
+             Title="Candidate Scoring">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Candidate Picker Section -->
+            <Grid BackgroundColor="LightGrey"
+                  Padding="10"
+                  RowDefinitions="Auto,Auto,Auto">
+                <Label Grid.Row ="0"
+                       x:Name="PositionLabel"
+                        Text="Position:"
+                        FontAttributes="Bold"
+                        TextColor="Red"
+                        Margin="0,10,0,10" />
+
+                <Picker Grid.Row="1"
+                        Margin="0,20,0,10"
+                        Title="Select Candidate"
+                        x:Name="NamePicker"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedIndexChanged="NamePicker_SelectedIndexChanged" />
+
+                <Label Grid.Row="2"
+                       x:Name="QualificationLabel"
+                       Text="Qualification:"
+                       FontAttributes="Bold"
+                       TextColor="DarkBlue"
+                       Margin="0,30,0,0" />
+            </Grid>
+
+            <Grid ColumnDefinitions="80,130,100" RowDefinitions="Auto,Auto,Auto,Auto">
+                <!-- Row 0 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" Spacing="5">
+                    <Label Text="Diction (5)" />
+                    <Entry x:Name="Diction" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" Spacing="5">
+                    <Label Text="Comportment (10)" />
+                    <Entry x:Name="Comportment" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="0" Grid.Column="2" Spacing="5">
+                    <Label Text="Dressing (5)" />
+                    <Entry x:Name="DressingEntry" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>                
+                      
+
+
+                <!-- Row 1 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" Spacing="5" >
+                    
+                    <Label Text="Basic Qualification (10)" />
+                    <Entry x:Name="BasicQualificationEntry" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" Spacing="5" Margin="0,20,0,10">
+                    <Label Text="Computer Knowledge (5)" />
+                    <Entry x:Name="ComputerKnowledgeEntry" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="1" Grid.Column="2" Spacing="5" Margin="0,20,0,10">
+                    <Label Text="Oral (20)" />
+                    <Entry x:Name="OralEntry" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+
+
+
+                <!-- Row 2 -->
+                <VerticalStackLayout Grid.Row="2" Grid.Column="0" Spacing="5">
+                    <Label Text="Written (10)" />
+                    <Entry x:Name="Written" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="2" Grid.Column="1" Spacing="5">
+                    <Label Text="Practical (15)" />
+                    <Entry x:Name="PracticalEntry" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Grid.Row="2" Grid.Column="2" Spacing="5">
+                    <Label Text="Experience (20)" />
+                    <Entry x:Name="Experience" Keyboard="Numeric" Placeholder="0" />
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout Grid.Row="3" Grid.Column="0" Spacing="5">
+                    <Label Text="" />
+
+                </VerticalStackLayout>
+
+
+               
+            </Grid>
+            <Label Text="Comment" />
+            <Entry x:Name="Comment" Keyboard="Text" Placeholder="Comment here" />
+
+
+            <Button Text="Submit Scores"
+                    BackgroundColor="DarkBlue"
+                    TextColor="White"
+                    Clicked="OnSubmitClicked"
+                    />
+
+            <Button Text="Log Off"
+        BackgroundColor="Red"
+        TextColor="White"
+        Clicked="OnLogClicked"
+        />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

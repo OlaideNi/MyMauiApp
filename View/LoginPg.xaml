@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="interviewMobile.View.LoginPg"
+             Title="Login">
+    <Grid RowDefinitions=".4*,.8*">
+
+        <Grid RowDefinitions=".7*,.3*" ColumnDefinitions=".3*,.7*" BackgroundColor="LightGreen" Opacity=".9">
+            <Image Grid.Column="0"  Source="acllogo.png" HeightRequest="90" WidthRequest="90"/>
+            <Label Grid.Column="1" Text="ABUJA CLINICS" FontFamily="bold" FontSize="50" 
+                   TextColor="Red"/>
+
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Label Text="INTERVIEW SCORE SHEET" FontSize="Medium" FontFamily="Bold" TextColor="Black"/>
+            </Grid>
+        </Grid>
+
+
+        <Grid Grid.Row="2">
+            <RoundRectangle Margin="-1,-20,-2,-1" CornerRadius="30,30,0,0" Fill="white"/>
+            <VerticalStackLayout Margin="30,0,30,0">
+                <Label FontAttributes="Bold" FontFamily="Bold" FontSize="Medium" Text="Welcome!"  TextColor="Black"/>
+                <Label FontFamily="Medium" Text="Log in to continue" TextColor="Black"/>
+
+                <Label x:Name="birthLab" Margin="10,30,0,0" FontFamily="Medium"  TextColor="Black"/>
+
+            </VerticalStackLayout>
+            <Grid ColumnDefinitions=".3*,.7*"  RowDefinitions=".3*,*" Margin="40,100,0,0">
+
+                <!--<Label  FontAttributes="Bold" FontFamily="Bold" FontSize="Medium" Text="Username"
+TextColor="Black"/>
+                <Entry x:Name="userEntry" Grid.Column="1" Placeholder="Type here..." VerticalOptions="Start" TextColor="Black"/>-->
+
+
+                <Label Grid.Row="1" Grid.Column="0" FontAttributes="Bold" FontFamily="Bold" FontSize="Medium" Text="Password"
+TextColor="Black"/>
+                <Entry x:Name="passEntry" Grid.Row="1" Grid.Column="1" Placeholder="Password Here" IsPassword="True" TextColor="Black" VerticalOptions="Start"/>
+
+            </Grid>
+
+            <Button 
+               x:Name="loginBut" Margin="40,80,40,0" BackgroundColor="LightBlue" HeightRequest="50" Text="Login"
+                    TextColor="Red" Clicked="Button_Clicked"/>
+
+        </Grid>
+
+    </Grid>
+</ContentPage>
