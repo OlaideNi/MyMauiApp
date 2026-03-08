@@ -1,0 +1,34 @@
+name: Build MAUI iOS App
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Install MAUI workload
+        run: dotnet workload install maui
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build iOS
+        run: dotnet build interviewMobile.csproj -f net9.0-ios -c Release
+
+      - name: Publish IPA
+        run: dotnet publish interviewMobile.csproj -f net9.0-ios -c Release -o ./output
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iOS-IPA
+          path: ./output
