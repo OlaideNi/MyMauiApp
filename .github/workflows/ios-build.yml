@@ -13,7 +13,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '9.0.x'
 
       - name: Install MAUI workload
         run: dotnet workload install maui
@@ -22,10 +22,10 @@ jobs:
         run: dotnet restore
 
       - name: Build iOS
-        run: dotnet build interviewMobile.csproj -f net8.0-ios -c Release
+        run: dotnet build interviewMobile.csproj -f net9.0-ios -c Release
 
       - name: Publish IPA
-        run: dotnet publish interviewMobile.csproj -f net8.0-ios -c Release -o ./output
+        run: dotnet publish interviewMobile.csproj -f net9.0-ios -c Release -o ./output
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
