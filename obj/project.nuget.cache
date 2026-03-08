@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dbDWDHvyHbw=",
+  "dgSpecHash": "tUq03YnhvN8=",
   "success": true,
   "projectFilePath": "C:\\Users\\ACL-MAIN\\Documents\\emi\\MAUI\\interviewMobile\\interviewMobile\\interviewMobile.csproj",
   "expectedPackageFiles": [
@@ -16,17 +16,25 @@
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls\\8.0.3\\microsoft.maui.controls.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls\\8.0.100\\microsoft.maui.controls.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.3\\microsoft.maui.controls.build.tasks.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\microsoft.maui.controls.build.tasks.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.3\\microsoft.maui.controls.compatibility.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.100\\microsoft.maui.controls.compatibility.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.3\\microsoft.maui.controls.core.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.100\\microsoft.maui.controls.core.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.3\\microsoft.maui.controls.xaml.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.100\\microsoft.maui.controls.xaml.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.core\\8.0.3\\microsoft.maui.core.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.core\\8.0.100\\microsoft.maui.core.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.essentials\\8.0.3\\microsoft.maui.essentials.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.essentials\\8.0.100\\microsoft.maui.essentials.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.graphics\\8.0.3\\microsoft.maui.graphics.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.graphics\\8.0.100\\microsoft.maui.graphics.8.0.100.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.100\\microsoft.maui.graphics.win2d.winui.desktop.8.0.100.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.3\\microsoft.maui.resizetizer.8.0.3.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\microsoft.maui.resizetizer.8.0.100.nupkg.sha512",
-    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\microsoft.windowsappsdk.1.5.240802000.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
@@ -113,7 +121,44 @@
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\ACL-MAIN\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.24\\microsoft.netcore.app.crossgen2.win-x64.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.24\\microsoft.aspnetcore.app.runtime.win-x64.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.24\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512",
+    "C:\\Users\\ACL-MAIN\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.24\\microsoft.netcore.app.runtime.win-x64.8.0.24.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1604",
+      "level": "Warning",
+      "message": "Project dependency Microsoft.Maui.Controls does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "projectPath": "C:\\Users\\ACL-MAIN\\Documents\\emi\\MAUI\\interviewMobile\\interviewMobile\\interviewMobile.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ACL-MAIN\\Documents\\emi\\MAUI\\interviewMobile\\interviewMobile\\interviewMobile.csproj",
+      "libraryId": "Microsoft.Maui.Controls",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v9.0",
+        ".NETCoreApp,Version=v9.0",
+        ".NETCoreApp,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1604",
+      "level": "Warning",
+      "message": "Project dependency Microsoft.Maui.Controls.Compatibility does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "projectPath": "C:\\Users\\ACL-MAIN\\Documents\\emi\\MAUI\\interviewMobile\\interviewMobile\\interviewMobile.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\ACL-MAIN\\Documents\\emi\\MAUI\\interviewMobile\\interviewMobile\\interviewMobile.csproj",
+      "libraryId": "Microsoft.Maui.Controls.Compatibility",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v9.0",
+        ".NETCoreApp,Version=v9.0",
+        ".NETCoreApp,Version=v9.0"
+      ]
+    }
+  ]
 }

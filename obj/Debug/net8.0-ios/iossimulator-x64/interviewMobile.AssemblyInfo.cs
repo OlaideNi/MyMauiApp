@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("interviewMobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+935ca84fb285606f18aaf1593315dbbe7264f27f")]
 [assembly: System.Reflection.AssemblyProductAttribute("interviewMobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("interviewMobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

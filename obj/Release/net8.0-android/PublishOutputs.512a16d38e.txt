@@ -1,0 +1,3 @@
+C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\bin\Release\net8.0-android\publish\com.companyname.interviewmobile-Signed.apk
+C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\bin\Release\net8.0-android\publish\com.companyname.interviewmobile.apk
+C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll

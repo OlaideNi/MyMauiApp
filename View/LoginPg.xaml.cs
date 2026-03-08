@@ -14,7 +14,7 @@ public partial class LoginPg : ContentPage
     public LoginPg()
     {
         InitializeComponent();
-        durl = "http://10.232.141.86:5000";
+        durl = "http://192.168.0.56:5000";
         
     }
     protected override async void OnAppearing()

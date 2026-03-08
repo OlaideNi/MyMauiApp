@@ -60,7 +60,7 @@ namespace interviewMobile.View
             {
                 _httpClient = new HttpClient
                 {
-                    BaseAddress = new Uri("http://10.232.141.86:5000")
+                    BaseAddress = new Uri("http://192.168.0.56:5000")
                 };
             }
 

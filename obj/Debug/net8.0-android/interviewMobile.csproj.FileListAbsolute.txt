@@ -1053,3 +1053,4 @@ C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\obj\Debug\n
 C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ACL-MAIN\Documents\emi\MAUI\interviewMobile\interviewMobile\obj\Debug\net8.0-android\interviewMobile.sourcelink.json
