@@ -28,7 +28,7 @@ jobs:
         run: dotnet publish interviewMobile.csproj -f net8.0-ios -c Release -o ./output
 
       - name: Upload IPA artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: iOS-IPA
           path: ./output
