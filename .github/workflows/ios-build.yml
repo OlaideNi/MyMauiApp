@@ -15,6 +15,9 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
+      - name: Install MAUI workload
+        run: dotnet workload install maui
+
       - name: Restore dependencies
         run: dotnet restore
 
@@ -23,3 +26,9 @@ jobs:
 
       - name: Publish IPA
         run: dotnet publish interviewMobile.csproj -f net8.0-ios -c Release -o ./output
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: iOS-IPA
+          path: ./output
