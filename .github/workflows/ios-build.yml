@@ -19,13 +19,13 @@ jobs:
         run: dotnet workload install maui
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore interviewMobile.csproj -f net9.0-ios17.0
 
       - name: Build iOS
-        run: dotnet build interviewMobile.csproj -f net9.0-ios -c Release
+        run: dotnet build interviewMobile.csproj -f net9.0-ios17.0 -c Release
 
       - name: Publish IPA
-        run: dotnet publish interviewMobile.csproj -f net9.0-ios -c Release -o ./output
+        run: dotnet publish interviewMobile.csproj -f net9.0-ios17.0 -c Release -o ./output
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
